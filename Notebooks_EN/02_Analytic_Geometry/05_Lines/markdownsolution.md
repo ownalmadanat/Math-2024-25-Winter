@@ -46,4 +46,4 @@ Here:
 For point \( A(1, 2) \):
 $$ d = \frac{|2(1) - 1(2) + 3|}{\sqrt{2^2 + (-1)^2}} = \frac{|2 - 2 + 3|}{\sqrt{4 + 1}} $$
 $$ d = \frac{3}{\sqrt{5}} \approx 1.34 $$
-![alt text](image.png)
+![alt text](image-1.png)
