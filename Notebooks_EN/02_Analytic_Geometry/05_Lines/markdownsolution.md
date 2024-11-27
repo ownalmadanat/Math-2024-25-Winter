@@ -29,7 +29,7 @@ $$ y = -\frac{1}{2}x + 5 $$
 
 ### Given Line and Point:
 - Line: $$y = 2x + 3$$
-- Point: $$ A(1, 2)$$
+- Point: $$A(1, 2)$$
 
 ### **Find Distance from Point \(A\) to the Line:**
 The formula for the distance (\(d\)) from a point \((x_1, y_1)\) to a line \(Ax + By + C = 0\) is:
