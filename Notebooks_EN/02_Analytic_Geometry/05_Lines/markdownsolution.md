@@ -61,20 +61,20 @@ $$d = \frac{3}{\sqrt{5}} \approx 1.34$$
 
 #### **Step 1: Find the Slope (\(m\)):**
 The slope (\(m\)) between two points \((x_1, y_1)\) and \((x_2, y_2)\) is given by:
-$$ m = \frac{y_2 - y_1}{x_2 - x_1} $$
+$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
 
 For points \(A(2, 0)\) and \(B(0, 3)\):
-$$ m = \frac{3 - 0}{0 - 2} = -\frac{3}{2} $$
+$$m = \frac{3 - 0}{0 - 2} = -\frac{3}{2}$$
 
 #### **Step 2: Point-Slope Form:**
 The point-slope form of a line is:
-$$ y - y_1 = m(x - x_1) $$
+$$y - y_1 = m(x - x_1)$$
 
 Using point \(B(0, 3)\):
-$$ y - 3 = -\frac{3}{2}(x - 0) $$
+$$y - 3 = -\frac{3}{2}(x - 0)$$
 
 #### **Final Equation:**
-$$ y = -\frac{3}{2}x + 3 $$
+$$y = -\frac{3}{2}x + 3$$
 
 ---
 ![alt text](image.png)
@@ -88,10 +88,10 @@ The slope of the line \( y = x + 3 \) is 1.
 
 #### **Angle Formula:**
 The angle (\(\theta\)) between a line and the \(x\)-axis is given by:
-$$ \theta = \tan^{-1}(m) $$
+$$\theta = \tan^{-1}(m)$$
 
 For \(m = 1\):
-$$ \theta = \tan^{-1}(1) = 45^\circ $$
+$$\theta = \tan^{-1}(1) = 45^\circ$$
 
 ---
 ![alt text](image-3.png)
@@ -101,13 +101,13 @@ $$ \theta = \tan^{-1}(1) = 45^\circ $$
 ### **Vector Perpendicular to the Line \( x + y + 1 = 0 \):**
 
 The equation of the line is:
-$$ x + y + 1 = 0 $$
+$$x + y + 1 = 0$$
 
 #### **Normal Vector:**
 A perpendicular vector to a line \(Ax + By + C = 0\) is given by:
-$$ \vec{v} = (A, B) $$
+$$\vec{v} = (A, B)$$
 
 For the line \(x + y + 1 = 0\):
-$$ \vec{v} = (1, 1) $$
+$$\vec{v} = (1, 1)$$
 
 ![alt text](image-4.png)
