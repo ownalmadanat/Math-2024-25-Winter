@@ -28,7 +28,7 @@ $$ y = -\frac{1}{2}x + 5 $$
 ## Q2
 
 ### Given Line and Point:
-- Line: $$ y = 2x + 3$$
+- Line: $$y = 2x + 3$$
 - Point: $$ A(1, 2)$$
 
 ### **Find Distance from Point \(A\) to the Line:**
