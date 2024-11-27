@@ -20,9 +20,7 @@ $$(x - 1)^2 + (y - 2)^2 = 9$$
 
 ## Q2
 Given:  
-$$
-x_1 = 2, \quad x_2 = 4, \quad \text{Point } (3, 1)
-$$
+$$x_1 = 2, \quad x_2 = 4, \quad \text{Point } (3,1)$$
 
 The general equation of a parabola is:  
 $$y = a (x - x_1)(x - x_2)$$
