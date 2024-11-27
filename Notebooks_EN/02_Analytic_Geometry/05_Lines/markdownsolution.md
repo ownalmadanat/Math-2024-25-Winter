@@ -33,7 +33,7 @@ $$ y = -\frac{1}{2}x + 5 $$
 
 ### **Find Distance from Point \(A\) to the Line:**
 The formula for the distance (\(d\)) from a point \((x_1, y_1)\) to a line \(Ax + By + C = 0\) is:
-$$d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}$$
+$$d = \frac{|Ax_1 + By_1 + C|}{\sqrt{A^2 + B^2}}$$
 
 ### **Convert Line to Standard Form:**
 The line \( y = 2x + 3 \) can be written as:
