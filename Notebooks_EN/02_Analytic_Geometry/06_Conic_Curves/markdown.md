@@ -34,3 +34,4 @@ Thus, the equation becomes:
 $$y = -1 (x - 2)(x - 4)$$  
 $$y = - (x^2 - 6x + 8)$$  
 $$y = -x^2 + 6x - 8$$
+![alt text](image-1.png)
