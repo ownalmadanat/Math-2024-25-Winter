@@ -3,27 +3,17 @@
 
 ## Q1
 Given:  
-$$
-A = (1, 2), \quad R = 3
-$$
+$$A = (1, 2), \quad R = 3$$
 
 The general equation of a circle is:  
-$$
-(x - h)^2 + (y - k)^2 = R^2
-$$
+$$(x - h)^2 + (y - k)^2 = R^2$$
 
 Substituting:  
-$$
-h = 1, \quad k = 2, \quad R = 3
-$$
+$$h = 1, \quad k = 2, \quad R = 3$$
 
 The equation becomes:  
-$$
-(x - 1)^2 + (y - 2)^2 = 3^2
-$$  
-$$
-(x - 1)^2 + (y - 2)^2 = 9
-$$
+$$(x - 1)^2 + (y - 2)^2 = 3^2$$  
+$$(x - 1)^2 + (y - 2)^2 = 9$$
 
 ---
 
