@@ -2,16 +2,22 @@
 ## Q1
 
 ### Given Line:
-$$ y = 2x + 3 $$
+$$y = 2x + 3$$
 
 ### **Parallel Line:**
+
 The slope (\(m\)) of the original line is 2. A parallel line will have the same slope:
-$$ y = mx + B \quad \text{where} \quad m = 2 $$
+
+$$y = mx + B \quad \text{where} \quad m = 2$$
+
 We chose the same slope, so:
-$$ y = 2x - 4 $$
+
+$$y = 2x - 4$$
 
 ### **Perpendicular Line:**
+
 The slope of a perpendicular line is the **negative reciprocal** of 2:
+
 $$ \text{Slope} = -\frac{1}{2} $$
 The equation of the perpendicular line is:
 $$ y = -\frac{1}{2}x + 5 $$
