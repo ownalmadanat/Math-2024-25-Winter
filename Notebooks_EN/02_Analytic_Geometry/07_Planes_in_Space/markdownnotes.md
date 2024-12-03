@@ -6,48 +6,30 @@
 
 ### Solution:
 The equation of a plane can be written as:
-$$
-a(x - x_1) + b(y - y_1) + c(z - z_1) = 0,
-$$
+$$a(x - x_1) + b(y - y_1) + c(z - z_1) = 0,$$
 where \((a, b, c)\) is the normal vector. To find the normal vector, compute:
-$$
-\vec{AB} = (3 - 1, 4 - 2, 5 - 3) = (2, 2, 2),
-$$
-$$
-\vec{AC} = (2 - 1, 1 - 2, 4 - 3) = (1, -1, 1).
-$$
+$$\vec{AB} = (3 - 1, 4 - 2, 5 - 3) = (2, 2, 2),$$
+$$\vec{AC} = (2 - 1, 1 - 2, 4 - 3) = (1, -1, 1).$$
 
 The normal vector is:
-$$
-\vec{n} = \vec{AB} \times \vec{AC}.
-$$
+$$\vec{n} = \vec{AB} \times \vec{AC}.$$
 Compute the cross product:
-$$
-\vec{n} = 
+$$\vec{n} = 
 \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
 2 & 2 & 2 \\
 1 & -1 & 1
 \end{vmatrix}
-= \mathbf{i}(2 - (-2)) - \mathbf{j}(2 - 2) + \mathbf{k}(-2 - 2),
-$$
-$$
-\vec{n} = (4, 0, -4).
-$$
+= \mathbf{i}(2 - (-2)) - \mathbf{j}(2 - 2) + \mathbf{k}(-2 - 2),$$
+$$\vec{n} = (4, 0, -4).$$
 
 Now use the point \(A(1, 2, 3)\) to find the equation:
-$$
-4(x - 1) + 0(y - 2) - 4(z - 3) = 0.
-$$
+$$4(x - 1) + 0(y - 2) - 4(z - 3) = 0.$$
 Simplify:
-$$
-x - 4y + 3z = 8.
-$$
+$$x - 4y + 3z = 8.$$
 
 ### Answer:
-$$
-x - 4y + 3z = 8
-$$
+$$x - 4y + 3z = 8$$
 
 ---
 
