@@ -12,8 +12,11 @@ $$\vec{AB} = (3 - 1, 4 - 2, 5 - 3) = (2, 2, 2),$$
 $$\vec{AC} = (2 - 1, 1 - 2, 4 - 3) = (1, -1, 1).$$
 
 The normal vector is:
+
 $$\vec{n} = \vec{AB} \times \vec{AC}.$$
+
 Compute the cross product:
+
 $$\vec{n} = 
 \begin{vmatrix}
 \mathbf{i} & \mathbf{j} & \mathbf{k} \\
