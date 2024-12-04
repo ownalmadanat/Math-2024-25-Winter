@@ -58,16 +58,48 @@ $$
 ## 3. The plane passes through point \(A(1, 2, 3)\) and is perpendicular to the normal vector \(\vec{n} = [2, 3, 4]\)
 
 ### Solution:
-The equation of the plane is:
+# Finding the Equation of the Plane
+
+We are tasked with finding the equation of a plane that:
+1. Passes through the point \( A(1, 2, 3) \),
+2. Is perpendicular to the normal vector \( \mathbf{n} = [2, 3, 4] \).
+
+## General Equation of a Plane
+
+The general equation of a plane is:
 $$
-2(x - 1) + 3(y - 2) + 4(z - 3) = 0.
+n_1(x - x_0) + n_2(y - y_0) + n_3(z - z_0) = 0
 $$
-Simplify:
+where:
+- \( (x_0, y_0, z_0) \) is a point on the plane,
+- \( [n_1, n_2, n_3] \) is the normal vector to the plane.
+
+## Substituting Given Values
+
+From the problem:
+- The point \( A(1, 2, 3) \) gives \( (x_0, y_0, z_0) = (1, 2, 3) \),
+- The normal vector \( \mathbf{n} = [2, 3, 4] \) gives \( n_1 = 2 \), \( n_2 = 3 \), \( n_3 = 4 \).
+
+Substitute these values into the general equation:
 $$
-2x + 3y + 4z = 20.
+2(x - 1) + 3(y - 2) + 4(z - 3) = 0
 $$
 
-### Answer:
+## Expanding the Equation
+
+Expand the terms:
+$$
+2x - 2 + 3y - 6 + 4z - 12 = 0
+$$
+
+Combine like terms:
+$$
+2x + 3y + 4z - 20 = 0
+$$
+
+## Final Equation of the Plane
+
+Thus, the equation of the plane is:
 $$
 2x + 3y + 4z = 20
 $$
