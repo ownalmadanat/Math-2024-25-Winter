@@ -67,9 +67,7 @@ We are tasked with finding the equation of a plane that:
 ## General Equation of a Plane
 
 The general equation of a plane is:
-$$
-n_1(x - x_0) + n_2(y - y_0) + n_3(z - z_0) = 0
-$$
+$$n_1(x - x_0) + n_2(y - y_0) + n_3(z - z_0) = 0$$
 where:
 - \( (x_0, y_0, z_0) \) is a point on the plane,
 - \( [n_1, n_2, n_3] \) is the normal vector to the plane.
@@ -81,28 +79,20 @@ From the problem:
 - The normal vector \( \mathbf{n} = [2, 3, 4] \) gives \( n_1 = 2 \), \( n_2 = 3 \), \( n_3 = 4 \).
 
 Substitute these values into the general equation:
-$$
-2(x - 1) + 3(y - 2) + 4(z - 3) = 0
-$$
+$$2(x - 1) + 3(y - 2) + 4(z - 3) = 0$$
 
 ## Expanding the Equation
 
 Expand the terms:
-$$
-2x - 2 + 3y - 6 + 4z - 12 = 0
-$$
+$$2x - 2 + 3y - 6 + 4z - 12 = 0$$
 
 Combine like terms:
-$$
-2x + 3y + 4z - 20 = 0
-$$
+$$2x + 3y + 4z - 20 = 0$$
 
 ## Final Equation of the Plane
 
 Thus, the equation of the plane is:
-$$
-2x + 3y + 4z = 20
-$$
+$$2x + 3y + 4z = 20$$
 
 ---
 
