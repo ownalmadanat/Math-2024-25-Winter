@@ -1,3 +1,66 @@
+## Solution
+
+The position of the particle is given by:
+$$
+x(t) = 3t^2 - 6t + 1
+$$
+
+### 1. Velocity \( V(t) = x'(t) \)
+
+To find the velocity, differentiate \( x(t) \):
+$$
+V(t) = x'(t) = \frac{d}{dt}[3t^2 - 6t + 1]
+$$
+$$
+V(t) = 6t - 6
+$$
+
+---
+
+### 2. Acceleration \( a(t) = x''(t) \)
+
+To find the acceleration, differentiate \( V(t) \):
+$$
+a(t) = V'(t) = \frac{d}{dt}[6t - 6]
+$$
+$$
+a(t) = 6
+$$
+
+---
+
+1. **Velocity** at \( t = 2 \):
+$$
+V(2) = 6(2) - 6
+$$
+$$
+V(2) = 12 - 6 = 6
+$$
+
+1. **Acceleration** at \( t = 2 \):
+$$
+a(2) = 6
+$$
+
+---
+
+### Final Results:
+
+- Velocity at \( t = 2 \):
+  $$
+  V(2) = 6
+  $$
+
+- Acceleration at \( t = 2 \):
+  $$
+  a(2) = 6
+  $$
+
+
+
+
+
+
 ## Problem 6:
 The profit function is given by:
 
@@ -17,16 +80,11 @@ where \( u \) is the number of units sold. We need to find the number of units t
    -4u + 50 = 0 \quad \Rightarrow \quad u = \frac{50}{4} = 12.5
    $$
 
-3. Verify that it is a maximum by checking the second derivative:
-   $$
-   P''(u) = -4
-   $$
-   Since \( P''(u) < 0 \), the function has a maximum at \( u = 12.5 \).
 
 ### Final Answer:
 The number of units that maximize profit is:
 $$ u = 12.5 \text{ units.} $$
-
+![alt text](image.png)
 ---
 
 ## Problem 7:
@@ -57,16 +115,10 @@ You have 10 meters of string, and you need to enclose the largest possible recta
    y = 5 - x = 5 - 2.5 = 2.5
    $$
 
-5. Verify that this gives a maximum by checking the second derivative:
-   $$
-   A''(x) = -2
-   $$
-   Since \( A''(x) < 0 \), the area is maximized.
-
 ### Final Answer:
 The dimensions of the rectangle are:
 $$ 2.5 \, \text{meters by} \, 2.5 \, \text{meters.} $$
-
+![alt text](image-1.png)
 ---
 
 ## Problem 8:
@@ -92,17 +144,13 @@ $$ f(x) = x^2 + 3x - 5 $$
    Since \( f''(x) > 0 \), the function has a **minimum** at \( x = -\frac{3}{2} \).
 
 4. Find the minimum value by substituting \( x = -\frac{3}{2} \) into \( f(x) \):
-   $$
-   f\left(-\frac{3}{2}\right) = \left(-\frac{3}{2}\right)^2 + 3\left(-\frac{3}{2}\right) - 5
-   $$
-   $$
-   = \frac{9}{4} - \frac{9}{2} - 5 = \frac{9}{4} - \frac{18}{4} - \frac{20}{4} = \frac{-29}{4}
-   $$
+   $$f\left(-\frac{3}{2}\right) = \left(-\frac{3}{2}\right)^2 + 3\left(-\frac{3}{2}\right) - 5$$
+   $$= \frac{9}{4} - \frac{9}{2} - 5 = \frac{9}{4} - \frac{18}{4} - \frac{20}{4} = \frac{-29}{4}$$
 
 ### Final Answer:
 The minimum value of \( f(x) \) is:
 $$ \frac{-29}{4} \, \text{at} \, x = -\frac{3}{2}. $$
-
+![alt text](image-2.png)
 ---
 
 ## Problem 9:
