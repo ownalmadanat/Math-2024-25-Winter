@@ -36,7 +36,7 @@ $$a(2) = 6$$
 - Acceleration at \( t = 2 \):
   $$a(2) = 6$$
 
-
+![alt text](image-3.png)
 
 
 
