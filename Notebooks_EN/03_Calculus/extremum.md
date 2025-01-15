@@ -149,93 +149,47 @@ $$ f(x) = \frac{x^2 + 2x + 1}{x - 1} $$
 The extremum occurs at:
 $$ x = 3 \, \text{and} \, x = -1. $$
 
-### Integral Solutions
-
-#### 1. \( \int 1 \, dx \)
-**Solution:**
-\[ \int 1 \, dx = x + C \]
-**Answer:**
-\[ x + C \]
-
-#### 2. \( \int (x^2 + 2) \, dx \)
-**Solution:**
-\[
-\int (x^2 + 2) \, dx = \int x^2 \, dx + \int 2 \, dx
-\]
-Using the power rule \( \int x^n \, dx = \frac{x^{n+1}}{n+1} \):
-\[
-\int x^2 \, dx = \frac{x^3}{3}, \quad \int 2 \, dx = 2x
-\]
-Adding the results:
-\[
-\frac{x^3}{3} + 2x + C
-\]
-**Answer:**
-\[ \frac{x^3}{3} + 2x + C \]
-
-#### 3. \( \int 2 \sin(x) \, dx \)
-**Solution:**
-The integral of \( \sin(x) \) is \( -\cos(x) \):
-\[
-\int 2 \sin(x) \, dx = -2 \cos(x) + C
-\]
-**Answer:**
-\[ -2 \cos(x) + C \]
-
-#### 4. \( \int \frac{3}{x} \, dx \)
-**Solution:**
-The integral of \( \frac{1}{x} \) is \( \ln|x| \):
-\[
-\int \frac{3}{x} \, dx = 3 \ln|x| + C
-\]
-**Answer:**
-\[ 3 \ln|x| + C \]
-
-#### 5. \( \int \frac{1}{2} \, dx \)
-**Solution:**
-The constant \( \frac{1}{2} \) is treated as a coefficient:
-\[
-\int \frac{1}{2} \, dx = \frac{1}{2}x + C
-\]
-**Answer:**
-\[ \frac{1}{2}x + C \]
-
-#### 6. \( \int \left(\frac{1}{3}x^4 - 5\right) \, dx \)
-**Solution:**
-Split the integral:
-\[
-\int \left(\frac{1}{3}x^4 - 5\right) \, dx = \int \frac{1}{3}x^4 \, dx - \int 5 \, dx
-\]
-Using the power rule:
-\[
-\int \frac{1}{3}x^4 \, dx = \frac{1}{15}x^5, \quad \int 5 \, dx = 5x
-\]
-Adding the results:
-\[
-\frac{1}{15}x^5 - 5x + C
-\]
-**Answer:**
-\[ \frac{1}{15}x^5 - 5x + C \]
-
-#### 7. \( \int (\sin^2(x) + \cos^2(x)) \, dx \)
-**Solution:**
-Using the trigonometric identity \( \sin^2(x) + \cos^2(x) = 1 \):
-\[
-\int (\sin^2(x) + \cos^2(x)) \, dx = \int 1 \, dx = x + C
-\]
-**Answer:**
-\[ x + C \]
-
-#### 8. \( \int (5 \sin(x) + 3e^x) \, dx \)
-**Solution:**
-Split the integral:
-\[
-\int (5 \sin(x) + 3e^x) \, dx = \int 5 \sin(x) \, dx + \int 3e^x \, dx
-\]
-The integral of \( \sin(x) \) is \( -\cos(x) \), and \( e^x \) remains \( e^x \):
-\[
-\int 5 \sin(x) \, dx = -5 \cos(x), \quad \int 3e^x \, dx = 3e^x
-\]
-Adding the results:
-\[
--5 \cos(x) + 3e^
+solutions = {
+    1: "$$
+    \int 1\,dx = x + C
+    $$",
+    2: "$$
+    \int (x^2 + 2)\,dx = \int x^2\,dx + \int 2\,dx = \frac{x^3}{3} + 2x + C
+    $$",
+    3: "$$
+    \int 2\sin(x)\,dx = -2\cos(x) + C
+    $$",
+    4: "$$
+    \int \frac{3}{x}\,dx = 3\ln|x| + C
+    $$",
+    5: "$$
+    \int \frac{1}{2}\,dx = \frac{1}{2}x + C
+    $$",
+    6: "$$
+    \int \left( \frac{1}{3}x^4 - 5 \right)\,dx = \frac{1}{15}x^5 - 5x + C
+    $$",
+    7: "$$
+    \int (\sin^2(x) + \cos^2(x))\,dx = \int 1\,dx = x + C
+    $$",
+    8: "$$
+    \int (5\sin(x) + 3e^x)\,dx = -5\cos(x) + 3e^x + C
+    $$",
+    9: "$$
+    \int x^{\frac{1}{3}}\,dx = \frac{3}{4}x^{\frac{4}{3}} + C
+    $$",
+    10: "$$
+    \int 10^x\,dx = \frac{10^x}{\ln(10)} + C
+    $$",
+    11: "$$
+    \int \cos\left(\frac{5}{2}x + 3\right)\,dx = \frac{2}{5}\sin\left(\frac{5}{2}x + 3\right) + C
+    $$",
+    12: "$$
+    \int \frac{\cos(\ln(x))}{x}\,dx = \sin(\ln(x)) + C
+    $$",
+    13: "$$
+    \int x\ln(x)\,dx = \frac{x^2}{2}\ln(x) - \frac{x^2}{4} + C
+    $$",
+    14: "$$
+    \int xe^x\,dx = xe^x - e^x + C
+    $$"
+}
